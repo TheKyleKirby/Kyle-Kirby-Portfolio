@@ -66,7 +66,7 @@ span{
     color: white;
 }
 
-/* Body/Content Area */
+/*-- Body/Content Area --*/
 
 .home{
     width: 100%;
@@ -148,10 +148,10 @@ span{
     width: 50px;
 }
 
-
+/*-- About Page --*/
 
 .about{
-    display: flex;
+    display: block;
     justify-content: center;
     align-items: center;
     padding: 12% 8%;
@@ -159,25 +159,47 @@ span{
     background: black;
 }
 .about-img img{
-    position: relative;
-    width: 800px;
+    display: flex;
+    width: 50%;
     box-shadow: 0 0 25px orangered;
-    border-radius: 100%;
+    border-radius: 15%;
+    margin-left: 1%;
 }
+.about-img2 img{
+    display: inline-flex;
+    width: 40%;
+    box-shadow: 0 0 25px orangered;
+    border-radius: 15%;
+    margin: 0 3% 0 0;
+}
+
+.other{
+    display: flex;
+    padding: 2%;
+}
+
 .about-content h2{
-    text-align: left;
+    text-align: center;
     color: white;
     font-size: 42px;
 }
 .about-content h3{
+    text-align: center;
     font-size: 62px;
     color: white;
 }
 .about-content p{
+    text-align: left;
     color: white;
     font-size: 20px;
     margin: 2em 0 3em;
 }
+.about-content{
+    display: block;
+}
+
+/*-- Contact Page --*/
+
 .contact-form h2{
     text-align: center;
     margin: 3em;
